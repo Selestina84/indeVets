@@ -1,0 +1,64 @@
+.header
+ width: 100%;
+ height: 800px;
+ background-color: $darkblue;
+ padding-top: 23px;
+ &__menu
+  Width: 1230px;
+  Height: 81px;
+  background-color: $lightblue;
+  border-radius: 100px;
+  margin: 0 97px 0 113px;
+  display: grid;
+  grid-template: 100% / 157px auto 144px;
+  align-items: center;
+ &__logo
+  justify-self: end;
+  font-size: 30px;
+  line-height: 35px;
+ &__nav
+  margin: auto 124px auto 305px;
+  display: flex;
+  justify-content: space-between;
+ &__link 
+  color: $darkblue;
+  transition: all .5s ease;
+  &:hover
+   text-decoration: none;
+   transform: scale(1.1);
+   color: $darkblue;
+ &__button
+  border: 1px solid white;
+  color: white;
+  width: 77px;
+  height: 22px;
+  font-size: 14px;
+  &:hover
+   color: white;
+ &__wrap
+  width: 1200px;
+  margin: 134px auto 0;
+  padding: 0 63px;
+  display: grid;
+  grid-template: 200px 112px / 712px 312px;
+  column-gap: 48px;
+  row-gap: 60px;
+ &__title
+  font-size: 85px;
+  line-height: 102px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+ &__text
+  font-size: 20px;
+  width: 542px;
+  line-height: 35px;
+  color: white;
+  grid-column: 1/2;
+  grid-row: 2/3;
+ &__img
+  margin-top: 50px;
+  width: 312px;
+  height: 350px;
+
+ 
+
