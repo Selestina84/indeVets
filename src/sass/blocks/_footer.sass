@@ -1,0 +1,45 @@
+.footer
+ background-color: white;
+ width: 100%;
+ max-width: 1196px;
+ margin:  0 auto;
+ padding: 120px 0 44px 0;
+ &__container
+  display: grid;
+  grid-template: 154px 24px / repeat(2, 284px) repeat(2,327px);
+  row-gap: 53px;
+ &__veterinarians
+  grid-column: 1/2;
+  grid-row: 1/2;
+ &__hospitals
+  grid-column: 2/3;
+  grid-row: 1/2;
+ &__nav
+  grid-column: 1/3;
+  grid-row: 2/3;
+ &__list
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 22px;
+ &__link
+  font-size: 14px;
+  line-height: 19px;
+  color: $lightblue;
+  &:hover
+   text-decoration: none;
+   color: darken($lightblue, 20%);
+ &__img
+  width: 100%;
+  max-width: 230px;
+  margin-top: 20px;
+ &__copy
+  width: 100%;
+  max-width: 1196px;
+  margin: 37px auto 0 0;
+  text-align: left;
+  font-size: 13px;
+  line-height: 18px;
+  color: $darkblue;
+
