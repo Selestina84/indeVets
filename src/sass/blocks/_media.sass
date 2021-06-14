@@ -47,6 +47,12 @@
   top: 610px;
  .works
    padding: 150px 0 0 0;
+ .mission
+   &__container
+    max-width: 980px;
+    padding: 70px 0 120px 0;
+   &__img
+    margin: 5px 70px 0 0;
 @media (max-width: 992px) 
  .header
   height: 500px;
@@ -92,6 +98,17 @@
     height: 100%;
   &__img-left
     margin: 0 0 0 60px;
+ .mission
+  &__container
+   max-width: 700px;
+   padding: 50px 0 80px 0;
+  &__img
+   margin: 5px 40px 0 0;
+   max-width: 300px;
+   height: 100%;
+  &__copy
+   line-height: 25px;
+   margin-bottom: 40px;
 @media (max-width: 768px)
  .header
   height: 400px;
@@ -143,6 +160,19 @@
     height: 100%;
   &__img-left
     margin: 0 0 0 30px;
+ .mission
+  &__container
+   max-width: 550px;
+   padding: 30px 10px 50px 10px;
+   flex-direction: column;
+  &__title
+   font-size: 50px;
+   line-height: 55px;
+   margin-bottom: 20px;
+  &__img
+   margin: 10px auto;
+  &__copy
+   max-width: 550px;
 @media (max-width: 576px)
  .header
   height: 360px;
@@ -199,7 +229,6 @@
     font-size: 35px;
     line-height: 40px;
   &__img
-    width: 100%;
     max-width: 200px;
     margin: 0 auto;
     order: 0;
@@ -207,6 +236,12 @@
     order: 1;
   &__descr
     line-height: 20px;
+ .mission
+  &__container
+   padding: 30px 30px 50px;
+  &__title
+   font-size: 40px;
+   line-height: 45px;
 @media (max-width: 420px)
  .header
   height: 465px;
@@ -248,4 +283,9 @@
    margin-bottom: 0;
   &__link
    font-size: 14px;
+ .mission
+  &__copy
+   font-size: 16px;
+   line-height: 20px;
+   margin-bottom: 25px;
 
